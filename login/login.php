@@ -8,6 +8,7 @@ if (isset($_POST['submit'])) {
   $password = $_POST['password'];
   $enc_password = sha1($password);
 
+           //Validation  Start____________________________
 
   //Email Validation  Start__
 
@@ -26,7 +27,7 @@ if (isset($_POST['submit'])) {
   }
   //Password Validation  Ends__
 
-
+     //Validation  Ends____________________________
 
 
   // Login Process
@@ -61,4 +62,3 @@ if (isset($_POST['submit'])) {
 }
 
 
-//Login Process
