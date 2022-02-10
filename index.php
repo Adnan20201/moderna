@@ -64,7 +64,7 @@ $fetch = mysqli_fetch_all($query, 1);
   $selects = "SELECT * from blog WHERE status = 0  ORDER BY id DESC";
   $query = mysqli_query($connect, $select);
   $fetch = mysqli_fetch_all($query, 1);
-  print_r($query);
+  // print_r($query);
   ?>
   <section class="services">
     <div class="container">
